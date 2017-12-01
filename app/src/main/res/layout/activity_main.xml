@@ -31,7 +31,6 @@
             android:id="@+id/ArcProgress2"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:layout_toRightOf="@+id/ArcProgress1"
             app:arc_finished_color="@color/white"
             app:arc_max="100"
             app:arc_progress="10"
@@ -51,9 +50,6 @@
             android:id="@+id/ArcProgress3"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/ArcProgress2"
             app:arc_finished_color="@color/white"
             app:arc_max="100"
             app:arc_progress="10"
@@ -73,7 +69,6 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/ArcProgress3"
             android:onClick="startAnim"
             android:text="Button" />
     </LinearLayout>
